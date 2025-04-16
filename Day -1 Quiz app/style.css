@@ -1,0 +1,95 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://lovbirdz.app/wp-content/uploads/2023/04/Background-lovbirdz-website2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    margin: auto;
+}
+.quiz-container
+{
+  background: pink;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  box-shadow:0 0 10px rgba(0,0,0,0.1) ;
+}
+#question-number
+{
+  font-size: 1em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#question
+{
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.options
+{
+  display: flex;
+  flex-direction: column;
+}
+.option{
+  color:black;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid black;
+  transition: background-color 0.3s;
+}
+.option:hover{
+  background-color: #79a3cf;
+}
+.footer
+{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+#timer
+{
+  font-weight: bold;
+}
+#next-btn
+{
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+#next-btn:hover
+{
+  background-color:  #218838;
+}
+.hide
+{
+  display: none;
+}
+.option.correct{
+  background-color: #28a745;
+}
+.option.incorrect{
+  background-color: red;
+}
